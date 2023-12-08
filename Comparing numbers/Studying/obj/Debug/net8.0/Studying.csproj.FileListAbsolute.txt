@@ -12,3 +12,18 @@ C:\Users\milja\source\repos\Studying\Studying\obj\Debug\net8.0\refint\Studying.d
 C:\Users\milja\source\repos\Studying\Studying\obj\Debug\net8.0\Studying.pdb
 C:\Users\milja\source\repos\Studying\Studying\obj\Debug\net8.0\Studying.genruntimeconfig.cache
 C:\Users\milja\source\repos\Studying\Studying\obj\Debug\net8.0\ref\Studying.dll
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\bin\Debug\net8.0\Studying.exe
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\bin\Debug\net8.0\Studying.deps.json
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\bin\Debug\net8.0\Studying.runtimeconfig.json
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\bin\Debug\net8.0\Studying.dll
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\bin\Debug\net8.0\Studying.pdb
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.AssemblyInfoInputs.cache
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.AssemblyInfo.cs
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.csproj.CoreCompileInputs.cache
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.sourcelink.json
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.dll
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\refint\Studying.dll
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.pdb
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\Studying.genruntimeconfig.cache
+C:\Users\milja\OneDrive\Desktop\programiranje\Traning\Comparing numbers\Studying\obj\Debug\net8.0\ref\Studying.dll

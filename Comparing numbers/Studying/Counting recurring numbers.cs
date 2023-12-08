@@ -10,15 +10,12 @@ Console.WriteLine(string.Join(", ", randomNumbers));
 Dictionary<int, int> numberCounts = new Dictionary<int, int>();
 foreach (int number in randomNumbers)
 {
-    // Check if the number is already in the dictionary
     if (numberCounts.ContainsKey(number))
     {
-        // Increment the count if it's already present
         numberCounts[number]++;
     }
     else
     {
-        // Add the number to the dictionary with a count of 1 if it's not present
         numberCounts[number] = 1;
     }
 }
@@ -74,4 +71,57 @@ Console.WriteLine("\nNumber counts:");
 foreach (var kvp in nums)
 {
     Console.WriteLine($"Number {kvp.Key}: {kvp.Value} times");
+}
+
+int[] numbs = { 10, 22, 9, 33, 21, 50, 41, 60, 80 };
+int result = LongestIncreasingSubsequence(numbs);
+Console.WriteLine(result);
+static int LongestIncreasingSubsequence(int[] numbs)
+{
+    if (numbs == null || numbs.Length == 0)
+        return 0;
+
+    int n = numbs.Length;
+    int[] dp = new int[n];
+    int maxResult = 1;
+
+    for (int i = 0; i < n; i++)
+    {
+        dp[i] = 1; 
+
+        for (int j = 0; j < i; j++)
+        {
+            if (numbs[i] > numbs[j] && dp[i] < dp[j] + 1)
+            {
+                dp[i] = dp[j] + 1;
+            }
+        }
+
+        maxResult = Math.Max(maxResult, dp[i]);
+    }
+
+    return maxResult;
+}
+
+static void bubbleSort(int[] array)
+{
+    for (int i = 0; i < array.Length - 1; i++)
+    {
+        for (int j = 0; j < array.Length - 1 - i; j++)
+        {
+            if (array[j] > array[j + 1])
+            {
+                // Swap array[j] and array[j + 1]
+                int temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+        }
+    }
+}
+
+bubbleSort(numbs);
+foreach (var item in numbs)
+{
+    Console.WriteLine(item);
 }
